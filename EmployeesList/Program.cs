@@ -252,6 +252,7 @@ namespace EmployeesList
                 if (Console.ReadKey(true).Key == ConsoleKey.Escape)
                 {
                     ChangeProgramState(State.Exit);
+                    return;
                 }
             }
         }
